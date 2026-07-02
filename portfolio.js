@@ -1573,7 +1573,7 @@
       var row = document.querySelector('.contact-row');
       if (!row) return;
       row.querySelectorAll('.social-headline-link').forEach(function (el) { if (el.parentNode) el.parentNode.removeChild(el); });
-      posts.filter(function (p) { return valid(p) && !isEmbeddable(p); }).forEach(function (p) {
+      posts.filter(function (p) { return valid(p) && !isEmbeddable(p) && p.headline_pill !== false; }).forEach(function (p) {
         var k = String(p.platform || 'link').toLowerCase();
         var b = B[k] || B.link;
         var glyph = b.i ? '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">' + b.i + '</svg>'

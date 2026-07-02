@@ -858,21 +858,38 @@ window.HOPE_DATA = {
   "social": [
     {
       "platform": "link",
+      "url": "https://cipherpulse.netlify.app",
+      "title": "View CipherPulse",
+      "caption": "CipherPulse — full-spectrum cybersecurity research blog, covering threat intel, red/blue team ops, and breaking CVEs.",
+      "headline_pill": false
+    },
+    {
+      "platform": "link",
+      "url": "https://www.linkedin.com/in/k-thapaswin-reddy/",
+      "title": "View on LinkedIn",
+      "caption": "Full LinkedIn profile — SOC Analyst · Detection Engineering · Application Security.",
+      "headline_pill": false
+    },
+    {
+      "platform": "link",
       "url": "https://github.com/thapaswin125/forgeguard",
       "title": "View on GitHub",
-      "caption": "ForgeGuard — AD blue-team lab generating SOC triage runbooks via Groq/Llama 3.3 70B."
+      "caption": "ForgeGuard — AD blue-team lab generating SOC triage runbooks via Groq/Llama 3.3 70B.",
+      "headline_pill": false
     },
     {
       "platform": "link",
       "url": "https://github.com/thapaswin125/ADWatchdog-Lite",
       "title": "View on GitHub",
-      "caption": "ADWatchdog Lite — AD detection-engineering workbench with Claude-generated triage runbooks."
+      "caption": "ADWatchdog Lite — AD detection-engineering workbench with Claude-generated triage runbooks.",
+      "headline_pill": false
     },
     {
       "platform": "link",
       "url": "https://github.com/thapaswin125/NIDS-using-ML",
       "title": "View on GitHub",
-      "caption": "Network Intrusion Detection System using Decision Tree, KNN, and Naive Bayes classifiers on NSL-KDD."
+      "caption": "Network Intrusion Detection System using Decision Tree, KNN, and Naive Bayes classifiers on NSL-KDD.",
+      "headline_pill": false
     }
   ],
   "traveler": "dot"
