@@ -864,28 +864,28 @@ window.HOPE_DATA = {
       "headline_pill": false
     },
     {
-      "platform": "link",
+      "platform": "linkedin",
       "url": "https://www.linkedin.com/in/k-thapaswin-reddy/",
       "title": "View on LinkedIn",
       "caption": "Full LinkedIn profile — SOC Analyst · Detection Engineering · Application Security.",
       "headline_pill": false
     },
     {
-      "platform": "link",
+      "platform": "gist",
       "url": "https://github.com/thapaswin125/forgeguard",
       "title": "View on GitHub",
       "caption": "ForgeGuard — AD blue-team lab generating SOC triage runbooks via Groq/Llama 3.3 70B.",
       "headline_pill": false
     },
     {
-      "platform": "link",
+      "platform": "gist",
       "url": "https://github.com/thapaswin125/ADWatchdog-Lite",
       "title": "View on GitHub",
       "caption": "ADWatchdog Lite — AD detection-engineering workbench with Claude-generated triage runbooks.",
       "headline_pill": false
     },
     {
-      "platform": "link",
+      "platform": "gist",
       "url": "https://github.com/thapaswin125/NIDS-using-ML",
       "title": "View on GitHub",
       "caption": "Network Intrusion Detection System using Decision Tree, KNN, and Naive Bayes classifiers on NSL-KDD.",
