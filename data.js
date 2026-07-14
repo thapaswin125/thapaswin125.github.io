@@ -280,6 +280,36 @@ window.HOPE_DATA = {
   ],
   "projects": [
     {
+      "id": "zerowire",
+      "name": "ZeroWire",
+      "tagline": "Self-updating 0day/CVE threat-intel digest · human-in-the-loop pipeline",
+      "dates": null,
+      "is_active": true,
+      "domain": "thapaswin125.github.io",
+      "initial": "Z",
+      "best_metric": "8 intel feeds, daily",
+      "description": "A static threat-intel newsfeed that pulls 8 curated security feeds every day, collapses duplicate stories with fuzzy matching, and enriches every CVE with NVD CVSS, FIRST EPSS, and CISA KEV data to auto-compute severity and must-know flags.",
+      "impact": "Each morning a GitHub Actions pipeline opens a checkbox PR of triaged candidates; one merge publishes the picks to a searchable dark-mode Jekyll site on GitHub Pages. Runs entirely on free infrastructure with zero paid APIs.",
+      "skills": [
+        {
+          "name": "Threat Intelligence",
+          "category": "domain"
+        },
+        {
+          "name": "CI/CD (GitHub Actions)",
+          "category": "tools"
+        },
+        {
+          "name": "Python",
+          "category": "languages"
+        }
+      ],
+      "link": {
+        "url": "https://thapaswin125.github.io/zerowire/",
+        "label": "View live site"
+      }
+    },
+    {
       "id": "forgeguard",
       "name": "ForgeGuard",
       "tagline": "Active Directory blue-team lab · AI triage via Groq/Llama",
@@ -799,6 +829,22 @@ window.HOPE_DATA = {
       ],
       "pane": "projects",
       "anchor": "tl-redflag"
+    },
+    {
+      "id": "zerowire",
+      "type": "project",
+      "date_start": "2026-07",
+      "date_end": null,
+      "label": "ZeroWire: 0day/CVE threat-intel digest",
+      "org": null,
+      "domain": "thapaswin125.github.io",
+      "metric": "8 intel feeds, daily",
+      "skills": [
+        "Threat Intelligence",
+        "CI/CD (GitHub Actions)"
+      ],
+      "pane": "projects",
+      "anchor": "tl-zerowire"
     },
     {
       "id": "forgeguard",
