@@ -55,6 +55,12 @@ window.HOPE_DATA = {
         "label": "CipherPulse",
         "url": "https://cipherpulse.netlify.app",
         "resume": true
+      },
+      {
+        "kind": "website",
+        "label": "ZeroWire",
+        "url": "https://thapaswin125.github.io/zerowire/",
+        "resume": true
       }
     ],
     "stats": {
